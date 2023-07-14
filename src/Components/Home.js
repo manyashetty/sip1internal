@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Carousel from 'react-bootstrap/Carousel';
+import { Carousel } from 'bootstrap'
 export const Home = () => {
   return (
     <>
@@ -20,11 +20,11 @@ export const Home = () => {
     </div>
 
     <div class="item">
-      <img src="images/1.jpg" alt="Chicago"/>
+      <img src="images/2.jpg" alt="Chicago"/>
     </div>
 
     <div class="item">
-      <img src="images/3.jpg" alt="New York"/>
+      <img src="images/2.jpg" alt="New York"/>
     </div>
   </div>
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
