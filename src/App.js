@@ -21,6 +21,7 @@ import Navbar from './Components/Navbar';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import SelectList from "./Components/SelectList";
+
 function App() {
   return(
     <>
@@ -33,6 +34,7 @@ crossorigin="anonymous"></link> */}
     <Route path="/" element={<Home />}/>
     <Route path="/about" element={<About />}/>
     <Route path="/contact" element={<Contact />}/>
+  
     </Routes>
    </BrowserRouter>
 

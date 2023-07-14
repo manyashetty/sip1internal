@@ -7,7 +7,7 @@ export const Navbar = () => {
     <>
          <nav id="nav" className="navbar navbar-expand-lg bg-dark navbar-dark">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">Education Sector</Link>
+                <Link className="navbar-brand" to="/">Education Sector - VIDYA</Link>
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
@@ -19,6 +19,7 @@ export const Navbar = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">About Us</Link>
                         </li>
+                        
                     </ul>
                 </div>
             </div>
